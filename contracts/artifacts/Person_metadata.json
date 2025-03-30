@@ -1,0 +1,139 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "Personcontract",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "age",
+						"type": "uint32"
+					},
+					{
+						"internalType": "address",
+						"name": "add",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPersonDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "p1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "age",
+						"type": "uint32"
+					},
+					{
+						"internalType": "address",
+						"name": "add",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_age",
+						"type": "uint32"
+					}
+				],
+				"name": "setPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PersonsContract.sol": "Person"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PersonsContract.sol": {
+			"keccak256": "0x29da7208850f295fd006c1f0af798f721746b2ba45fa59e2ada79015f8cfeabf",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://cb90dbb3c27c9a2f4f9ecdd6ccca65dc9f12ea283ca9df7c9a238248dbfd2d8e",
+				"dweb:/ipfs/QmSNhPwUYsen2BYYjSyqYjS8GGhWd3z6u4tYTMvQRGRxg2"
+			]
+		}
+	},
+	"version": 1
+}

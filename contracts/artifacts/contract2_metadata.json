@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_val",
+						"type": "uint256"
+					}
+				],
+				"name": "ProxyAdd",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ProxygetNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/contract2.sol": "contract2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/contract2.sol": {
+			"keccak256": "0xc92b414c0b3eed291e7e260446e2d03309b0192d1ecb5306426d3034e7cf0894",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5a44e59ff030883103979abc033e969f81ca8c127f774ef2e9c6998c6c698a9f",
+				"dweb:/ipfs/QmZw8jfoK6Bzj1324f3s7HtFAkbT7TcQ1XsFEvRNqb5SmZ"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recepient",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_recipient",
+						"type": "address"
+					}
+				],
+				"name": "changeRecipient",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposite",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "poked",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/will.sol": "will_of_ETH"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/will.sol": {
+			"keccak256": "0x8d6a04b847fae5fae8a0c836599b223c279acd539a0c36e483c87f484a32d6c1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fcb66b75fb9d647de9c94fb2292dd4ba0e1d5f67600d599d5bc5af7ef134a922",
+				"dweb:/ipfs/QmU5VQKohbFGuJZNiAWgTAA8972XWHxkUB5zqbxEcJQce4"
+			]
+		}
+	},
+	"version": 1
+}

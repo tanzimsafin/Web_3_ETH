@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_brand",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_numberOfDoors",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "brand",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "description",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numberOfDoors",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/car.sol": "Car"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"/contracts/vehicle.sol": {
+			"keccak256": "0x854d387d325b3ef1ff26ac6d8c5c624cca799c6a35d461b21824f233133a21ac",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bd8d00791445f2e714559661f0262243bb2f9005ac6e6767668a36d784bc1e63",
+				"dweb:/ipfs/QmNoewDUpUje9YUPJKdyjbEnUkrzikcBL2brprS2WrLxHm"
+			]
+		},
+		"contracts/car.sol": {
+			"keccak256": "0xe476ed74b0aa1ca3e09126ed0c6f023c8dd9466f463c12fef77270ad4710e30b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://37292831eee63dbf81c07f95a2f148a349e194eacbd2b6bf7fce374196aabb8f",
+				"dweb:/ipfs/QmNNDqkvoAZanJcQTFFa4ujoH7dzpAWLS2Zwu3Jnu8E9eC"
+			]
+		}
+	},
+	"version": 1
+}

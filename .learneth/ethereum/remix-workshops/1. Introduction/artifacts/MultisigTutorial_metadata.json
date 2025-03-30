@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "question1",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "question2",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/ethereum/remix-workshops/1. Introduction/introduction.sol": "MultisigTutorial"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/ethereum/remix-workshops/1. Introduction/introduction.sol": {
+			"keccak256": "0x8141c5fa5e21e2df8c59b3295030886171e375e4b830fa0193e9cfde318d3251",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e4491871473a85cbe23be78176c560363b0571025772071b949c15b215aa904e",
+				"dweb:/ipfs/QmUGU1viFi1raJd6Herx1cnLCkpuMXuGe11qHnVSBV472s"
+			]
+		}
+	},
+	"version": 1
+}
