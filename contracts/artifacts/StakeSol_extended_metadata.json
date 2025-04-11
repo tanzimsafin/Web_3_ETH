@@ -31,6 +31,19 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "chainStartTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -61,11 +74,11 @@
 	},
 	"sources": {
 		"contracts/StakingCorrect.sol": {
-			"keccak256": "0x52bc3661de34f61f34ebe849b0c563910c65c2d5bb7bb62223c9ad568270b7b7",
+			"keccak256": "0x0e2661a4ccf7449413e62c65d0b406475aa989948b7f31feeb5b9b9ca006d04a",
 			"license": "Unlicense",
 			"urls": [
-				"bzz-raw://af45b2618c7018a06ba37cbd71b993e3842fe284c488c372ab203eecdb34adf6",
-				"dweb:/ipfs/QmVwNzxJgHTTv8dF1F5yrPMtoaFjKo75pun6FAECJTyLqq"
+				"bzz-raw://d9382f8d4f326e7d6d235dfac40aac03555ab3aed72829e3da2dde6aa8bd5d77",
+				"dweb:/ipfs/QmYZG96J36KUL4PPvd7E6ogmy3uh3Hyon5szuEexAJH9gs"
 			]
 		}
 	},

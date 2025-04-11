@@ -97,11 +97,11 @@
 			]
 		},
 		"contracts/car.sol": {
-			"keccak256": "0xe476ed74b0aa1ca3e09126ed0c6f023c8dd9466f463c12fef77270ad4710e30b",
+			"keccak256": "0xe639f0cffac68cc6c7dff5ddfacdb49faeb83275d8ce21f7ca4ecb2538ff7666",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://37292831eee63dbf81c07f95a2f148a349e194eacbd2b6bf7fce374196aabb8f",
-				"dweb:/ipfs/QmNNDqkvoAZanJcQTFFa4ujoH7dzpAWLS2Zwu3Jnu8E9eC"
+				"bzz-raw://9c76780a4cd11b9d9912641d2175cc360f5edd7a9fc25d36ef48345afb354c83",
+				"dweb:/ipfs/Qma7BNWueL2vdyodBh2mGYQr3kFTfe6iG94nj2y4pEFn6m"
 			]
 		}
 	},
