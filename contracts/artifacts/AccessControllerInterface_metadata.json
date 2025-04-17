@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "hasAccess",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FeedData.sol": "AccessControllerInterface"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FeedData.sol": {
+			"keccak256": "0xf5752315169bd70bc14cff7d0bdf6670f40865e0d007e96f897b5dd3c4b3040b",
+			"urls": [
+				"bzz-raw://dfddda08f17f711584e8ab250d5bea85c215d8c4f376b0fba7cd20f0ae61ab0b",
+				"dweb:/ipfs/QmWLymvyP7hq8UBBN1TUM9pCQz8hGNritnbbGT6oYB7HQC"
+			]
+		}
+	},
+	"version": 1
+}

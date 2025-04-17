@@ -1,0 +1,126 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferRequested",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "acceptOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"acceptOwnership()": {
+					"details": "Allows an ownership transfer to be completed by the recipient."
+				},
+				"transferOwnership(address)": {
+					"details": "Allows an owner to begin transferring ownership to a new address, pending."
+				}
+			},
+			"title": "The Owned contract"
+		},
+		"userdoc": {
+			"methods": {},
+			"notice": "A contract with helpers for basic contract ownership."
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FeedData.sol": "Owned"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FeedData.sol": {
+			"keccak256": "0xf5752315169bd70bc14cff7d0bdf6670f40865e0d007e96f897b5dd3c4b3040b",
+			"urls": [
+				"bzz-raw://dfddda08f17f711584e8ab250d5bea85c215d8c4f376b0fba7cd20f0ae61ab0b",
+				"dweb:/ipfs/QmWLymvyP7hq8UBBN1TUM9pCQz8hGNritnbbGT6oYB7HQC"
+			]
+		}
+	},
+	"version": 1
+}

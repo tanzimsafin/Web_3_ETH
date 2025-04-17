@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint80",
+						"name": "roundId",
+						"type": "uint80"
+					}
+				],
+				"name": "getHistoricalData",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"getHistoricalData(uint80)": {
+					"details": "A timestamp with zero value means the round is not complete and should not be used."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"constructor": {
+					"notice": "Network: Sepolia Aggregator: ETH/USD Address:\t0x694AA1769357215DE4FAC081bf1f309aDC325306"
+				},
+				"getHistoricalData(uint80)": {
+					"notice": "Returns historical data for a round ID. roundId is NOT incremental. Not all roundIds are valid. You must know a valid roundId before consuming historical data. ROUNDID VALUES:    InValid:      18446744073709562300    Valid:        18446744073709554683"
+				}
+			},
+			"notice": "THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY. THIS IS AN EXAMPLE CONTRACT THAT USES UN-AUDITED CODE. DO NOT USE THIS CODE IN PRODUCTION.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/datafeed.sol": "HistoricalDataConsumerV3"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol": {
+			"keccak256": "0x257a8d28fa83d3d942547c8e129ef465e4b5f3f31171e7be4739a4c98da6b4f0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d39e11b1dc7b9b8ccdabbc9be442ab7cda4a81c748f57e316dcb1bcb4a28bf9",
+				"dweb:/ipfs/QmaG6vz6W6iEUBsbHSBob5mdcitYxWjoygxREHpsJHfWrS"
+			]
+		},
+		"contracts/datafeed.sol": {
+			"keccak256": "0xbd489f9c42342aa736a4e9bd1472b0be56d58c77a3c0d44b904f12fae8dbbea6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://47360fccd898368a6bfb7ced35caa2fd5f8ccbb3a05940f398f305ab337f76a6",
+				"dweb:/ipfs/QmULMi1nLsEAcpBG11jcfqtJPmq8yKQrLWqLfr4mBHsPoD"
+			]
+		}
+	},
+	"version": 1
+}
