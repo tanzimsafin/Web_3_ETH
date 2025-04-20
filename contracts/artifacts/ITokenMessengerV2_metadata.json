@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint32",
+						"name": "destinationDomain",
+						"type": "uint32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "mintRecipient",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "burnToken",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "destinationCaller",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "maxFee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint32",
+						"name": "minFinalityThreshold",
+						"type": "uint32"
+					}
+				],
+				"name": "depositForBurn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cctp.sol": "ITokenMessengerV2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cctp.sol": {
+			"keccak256": "0x27e0a9b22f6e61698875ae5a34d2327f22cd318b27fd0c3650c8ec147a7c91e0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b34d2e4978c74458bb1c7879ebcc0208521aa8c8ac309a8ea98bdfa278552810",
+				"dweb:/ipfs/QmfLPEYfPjrDjf31QM3VVGWwKHYxLU3y8Jb2Sp93n38p5U"
+			]
+		}
+	},
+	"version": 1
+}

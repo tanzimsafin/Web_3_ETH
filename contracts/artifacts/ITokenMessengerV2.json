@@ -1,0 +1,100 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"depositForBurn(uint256,uint32,bytes32,address,bytes32,uint256,uint32)": "8e0250ee"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "amount",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint32",
+					"name": "destinationDomain",
+					"type": "uint32"
+				},
+				{
+					"internalType": "bytes32",
+					"name": "mintRecipient",
+					"type": "bytes32"
+				},
+				{
+					"internalType": "address",
+					"name": "burnToken",
+					"type": "address"
+				},
+				{
+					"internalType": "bytes32",
+					"name": "destinationCaller",
+					"type": "bytes32"
+				},
+				{
+					"internalType": "uint256",
+					"name": "maxFee",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint32",
+					"name": "minFinalityThreshold",
+					"type": "uint32"
+				}
+			],
+			"name": "depositForBurn",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}

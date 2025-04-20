@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "message",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "attestation",
+						"type": "bytes"
+					}
+				],
+				"name": "receiveMessage",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cctp.sol": "IMessageTransmitterV2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cctp.sol": {
+			"keccak256": "0x27e0a9b22f6e61698875ae5a34d2327f22cd318b27fd0c3650c8ec147a7c91e0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b34d2e4978c74458bb1c7879ebcc0208521aa8c8ac309a8ea98bdfa278552810",
+				"dweb:/ipfs/QmfLPEYfPjrDjf31QM3VVGWwKHYxLU3y8Jb2Sp93n38p5U"
+			]
+		}
+	},
+	"version": 1
+}
