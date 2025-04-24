@@ -829,11 +829,11 @@
 			]
 		},
 		"contracts/artifacts/NFT.sol": {
-			"keccak256": "0xc163187edc4022bb6b96ea2a634d955e8714020daa4c6defdf5f1b8d810a08b3",
+			"keccak256": "0xfdbb7f61f40bb9e0ebf3e7592086754a93be6f6fa2e92cb80a9bccd6e435769c",
 			"license": "Unlicense",
 			"urls": [
-				"bzz-raw://93a866600d941ec97c10f502a500d05802f4441c1e6ad9c2c5d6ee7352c8d725",
-				"dweb:/ipfs/QmaNndyE7pGWyNtpdf6iDF61zt9jD2B1pX638bmuarhM1m"
+				"bzz-raw://3c529a1dd2fcd8d10b62b137a5a3965542dce8b4fecbeb6d3064cdefc2a4fc1b",
+				"dweb:/ipfs/QmQXqEu2WGSVbXkEhpESQBEQTgzMSTp7bT77j2BA5VbWPp"
 			]
 		}
 	},

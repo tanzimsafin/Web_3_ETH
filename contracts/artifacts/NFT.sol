@@ -13,7 +13,8 @@ contract Flower_NFT is ERC721, Ownable {
     }
     
    function _baseURI() internal view virtual override returns (string memory) {
-    return "https://magenta-selected-tuna-855.mypinata.cloud/ipfs/bafybeien6zqao7b7lnn2cf7ol73eh5tenmz4no6dyyzidqf4omy6ng26ye/";
+    
+    return "https://magenta-selected-tuna-855.mypinata.cloud/ipfs/bafybeierxdthj2qwikkmz4humscgdvi65yvkl5wfu2wkkgrl74lax5be7m/";
 }
     
     function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {

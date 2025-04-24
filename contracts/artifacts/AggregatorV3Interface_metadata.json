@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.29+commit.ab55807c"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -130,7 +130,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/datafeed.sol": "AggregatorV3Interface"
+			"contracts/FeedData.sol": "AggregatorV3Interface"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -144,12 +144,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/datafeed.sol": {
-			"keccak256": "0x65b77163bd04abcee405c11417f7a02264bc28a9530e3f4c18966d2535731129",
+		"contracts/FeedData.sol": {
+			"keccak256": "0x285853fb455574148c1781f158c0698c2fb5037102b61c6281b2d67aaa74bb16",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://957c086ba6eebd29d0fcd094bb1a9e9437fda75d85be8202791860a51476b737",
-				"dweb:/ipfs/QmNRoVnEpx8Ef7wDf7XyX7UT9mgtu9fXqkchTZZwhSRArb"
+				"bzz-raw://f46f5d18166ee2060c3e989b2723157921e47bc5f8ee51c56b40fb0f9427c109",
+				"dweb:/ipfs/Qma3ZS78rKhq65NQm6eAwCEWDDyAJ95L1YXw575TwhF9mY"
 			]
 		}
 	},
