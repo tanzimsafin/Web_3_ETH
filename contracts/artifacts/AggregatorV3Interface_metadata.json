@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.19+commit.7dd6d404"
+		"version": "0.8.29+commit.ab55807c"
 	},
 	"language": "Solidity",
 	"output": {
@@ -132,7 +132,7 @@
 		"compilationTarget": {
 			"contracts/Project_AU.sol": "AggregatorV3Interface"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -145,11 +145,11 @@
 	},
 	"sources": {
 		"contracts/Project_AU.sol": {
-			"keccak256": "0x71b7cc4abe6d48b2d688960ff31bf7ea464fc41fb7d43ec6f73a37969cb7ba91",
+			"keccak256": "0x9ce9e6a2c6787795d8b1ec410917095ed8e3e147d44ce2ea2236b26a8cfe342b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://44850019c0bf5e81443518707961040b6fb99c7d1df23d000be135250fd69e22",
-				"dweb:/ipfs/QmNvgQmL3YhhApgPP85Wx6vCPCcQZBhvyGi6k9iNVRT6MG"
+				"bzz-raw://945e3597512e99e463abf3b58a224edc773a9ddbe57fa9d0c71854096ab3c184",
+				"dweb:/ipfs/Qmc2gHLQjnLehqeuJijjjPr8YKqRT4WMJ2wDFCaCxBFYuy"
 			]
 		}
 	},

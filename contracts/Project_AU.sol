@@ -26,8 +26,8 @@ contract smart_manager{
     mapping (address => uint256) balances;
     AggregatorV3Interface internal dataFeed;
     AutomationCompatibleInterface internal automation;
-    int lastSeenPrice;
-    uint256 count=1;
+    int public lastSeenPrice;
+    uint256 public count=1;
     constructor(){
          dataFeed=AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306);
          lastSeenPrice=getLatestPrice();
@@ -57,7 +57,7 @@ contract smart_manager{
         ) = dataFeed.latestRoundData();
         return price;
     }
-     function checkUpkeep(bytes calldata checkData) external returns (bool upkeepNeeded, bytes memory performData){
+     function checkUpkeep(bytes calldata /*checkData*/) external returns (bool upkeepNeeded, bytes memory performData){
        int latest_price=getLatestPrice();
        upkeepNeeded=latest_price>lastSeenPrice;
        lastSeenPrice=latest_price;
