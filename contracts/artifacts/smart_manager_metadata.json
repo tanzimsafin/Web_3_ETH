@@ -12,15 +12,46 @@
 			},
 			{
 				"inputs": [],
-				"name": "getDecimals",
+				"name": "balance",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "checkData",
+						"type": "bytes"
+					}
+				],
+				"name": "checkUpkeep",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "upkeepNeeded",
+						"type": "bool"
+					},
+					{
+						"internalType": "bytes",
+						"name": "performData",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposite",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -50,49 +81,23 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getVersion",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "bytes",
+						"name": "performData",
+						"type": "bytes"
 					}
 				],
-				"stateMutability": "view",
+				"name": "performUpkeep",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "latestRoundData",
-				"outputs": [
-					{
-						"internalType": "uint80",
-						"name": "roundId",
-						"type": "uint80"
-					},
-					{
-						"internalType": "int256",
-						"name": "answer",
-						"type": "int256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "startedAt",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "updatedAt",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint80",
-						"name": "answeredInRound",
-						"type": "uint80"
-					}
-				],
-				"stateMutability": "view",
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -109,7 +114,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/FeedData.sol": "PriceConsumer"
+			"contracts/Project_AU.sol": "smart_manager"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -123,12 +128,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/FeedData.sol": {
-			"keccak256": "0x285853fb455574148c1781f158c0698c2fb5037102b61c6281b2d67aaa74bb16",
+		"contracts/Project_AU.sol": {
+			"keccak256": "0x71b7cc4abe6d48b2d688960ff31bf7ea464fc41fb7d43ec6f73a37969cb7ba91",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f46f5d18166ee2060c3e989b2723157921e47bc5f8ee51c56b40fb0f9427c109",
-				"dweb:/ipfs/Qma3ZS78rKhq65NQm6eAwCEWDDyAJ95L1YXw575TwhF9mY"
+				"bzz-raw://44850019c0bf5e81443518707961040b6fb99c7d1df23d000be135250fd69e22",
+				"dweb:/ipfs/QmNvgQmL3YhhApgPP85Wx6vCPCcQZBhvyGi6k9iNVRT6MG"
 			]
 		}
 	},
