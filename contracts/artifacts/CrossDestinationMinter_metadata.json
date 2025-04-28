@@ -1,0 +1,262 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "nftAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "router",
+						"type": "address"
+					}
+				],
+				"name": "InvalidRouter",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "MintCallSuccessfull",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "bytes32",
+								"name": "messageId",
+								"type": "bytes32"
+							},
+							{
+								"internalType": "uint64",
+								"name": "sourceChainSelector",
+								"type": "uint64"
+							},
+							{
+								"internalType": "bytes",
+								"name": "sender",
+								"type": "bytes"
+							},
+							{
+								"internalType": "bytes",
+								"name": "data",
+								"type": "bytes"
+							},
+							{
+								"components": [
+									{
+										"internalType": "address",
+										"name": "token",
+										"type": "address"
+									},
+									{
+										"internalType": "uint256",
+										"name": "amount",
+										"type": "uint256"
+									}
+								],
+								"internalType": "struct Client.EVMTokenAmount[]",
+								"name": "destTokenAmounts",
+								"type": "tuple[]"
+							}
+						],
+						"internalType": "struct Client.Any2EVMMessage",
+						"name": "message",
+						"type": "tuple"
+					}
+				],
+				"name": "ccipReceive",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getRouter",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nft",
+				"outputs": [
+					{
+						"internalType": "contract InftMinter",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testMint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "nftAddress",
+						"type": "address"
+					}
+				],
+				"name": "updateNFT",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"ccipReceive((bytes32,uint64,bytes,bytes,(address,uint256)[]))": {
+					"details": "Note ensure you check the msg.sender is the OffRampRouter",
+					"params": {
+						"message": "CCIP Message"
+					}
+				},
+				"getRouter()": {
+					"returns": {
+						"_0": "CCIP router address"
+					}
+				},
+				"supportsInterface(bytes4)": {
+					"details": "Should indicate whether the contract implements IAny2EVMMessageReceiver e.g. return interfaceId == type(IAny2EVMMessageReceiver).interfaceId || interfaceId == type(IERC165).interfaceId This allows CCIP to check if ccipReceive is available before calling it. If this returns false or reverts, only tokens are transferred to the receiver. If this returns true, tokens are transferred and ccipReceive is called atomically. Additionally, if the receiver address does not have code associated with it at the time of execution (EXTCODESIZE returns 0), only tokens will be transferred.",
+					"params": {
+						"interfaceId": "The interfaceId to check"
+					},
+					"returns": {
+						"_0": "true if the interfaceId is supported"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"ccipReceive((bytes32,uint64,bytes,bytes,(address,uint256)[]))": {
+					"notice": "Called by the Router to deliver a message. If this reverts, any token transfers also revert. The message will move to a FAILED state and become available for manual execution."
+				},
+				"getRouter()": {
+					"notice": "Return the current router"
+				},
+				"supportsInterface(bytes4)": {
+					"notice": "IERC165 supports an interfaceId"
+				}
+			},
+			"notice": "THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY. THIS IS AN EXAMPLE CONTRACT THAT USES UN-AUDITED CODE. DO NOT USE THIS CODE IN PRODUCTION.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/crossChainNFT2.sol": "CrossDestinationMinter"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@chainlink/contracts-ccip/src/v0.8/ccip/applications/CCIPReceiver.sol": {
+			"keccak256": "0x846fbf21ac7bc86c8e4aa0b3dc126126536cc414d3bb99c1fed747ce99f9f40c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://384d2d6f2a5056f43de589e9f2df1afa69afe7861871715ec371327cbc5684f9",
+				"dweb:/ipfs/QmZmpeH4sTwVdvfTGvfsthwEE4eTw7C3hvHfNFedLPfisp"
+			]
+		},
+		"@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IAny2EVMMessageReceiver.sol": {
+			"keccak256": "0xd2a05a4f58a453cbf8cfa6aa78f58cb8e42091b3a025f711a0aa51f584e16b48",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e3bb4ca50612b0150a29b9ea7c82f6228914ff54716584541bad5c0259e8fa33",
+				"dweb:/ipfs/QmTnqhNtBD9bUmqVaR4YHkWrBUdSGHV3DXAgrTM193PGkH"
+			]
+		},
+		"@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol": {
+			"keccak256": "0xa1ce70adec733c80b230084b425a50caa852a99f17a7e43e38a96a975f11ce88",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://08db3aa57ceae13832c1bf323aa29afa2620fd5b5205ff0d56152bf323c56256",
+				"dweb:/ipfs/QmUG2FSVP8xXVkdgFwNhc4YFDU7FNCaf1kKShiTaaHUddE"
+			]
+		},
+		"@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v5.0.2/contracts/utils/introspection/IERC165.sol": {
+			"keccak256": "0x4296879f55019b23e135000eb36896057e7101fb7fb859c5ef690cf14643757b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://87b3541437c8c443ccd36795e56a338ed12855eec17f8da624511b8d1a7e14df",
+				"dweb:/ipfs/QmeJQCtZrQjtJLr6u7ZHWeH3pBnjtLWzvRrKViAi7UZqxL"
+			]
+		},
+		"contracts/crossChainNFT2.sol": {
+			"keccak256": "0x20573fb4ffedd10a7216bbbd6eca8e6750b6f9f7a4691a2b00a36a7e93982eb6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://57651e91ada286e541eaafa075696f65a2197789533b67278da1e6fe97cd123e",
+				"dweb:/ipfs/QmYf3YWPGmpWp1EUhE8gDUpUheX36a3hmnaVht3TizDjrA"
+			]
+		}
+	},
+	"version": 1
+}
