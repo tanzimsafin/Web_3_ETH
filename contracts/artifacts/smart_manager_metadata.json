@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.29+commit.ab55807c"
+		"version": "0.8.19+commit.7dd6d404"
 	},
 	"language": "Solidity",
 	"output": {
@@ -44,7 +44,7 @@
 						"type": "bytes"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -142,7 +142,7 @@
 		"compilationTarget": {
 			"contracts/Project_AU.sol": "smart_manager"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -155,11 +155,11 @@
 	},
 	"sources": {
 		"contracts/Project_AU.sol": {
-			"keccak256": "0x9ce9e6a2c6787795d8b1ec410917095ed8e3e147d44ce2ea2236b26a8cfe342b",
+			"keccak256": "0xd30720302baf347ca1810d4b71007fab482333db23c6ca1432346edbd6594604",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://945e3597512e99e463abf3b58a224edc773a9ddbe57fa9d0c71854096ab3c184",
-				"dweb:/ipfs/Qmc2gHLQjnLehqeuJijjjPr8YKqRT4WMJ2wDFCaCxBFYuy"
+				"bzz-raw://bb90eb8976fc34c754f76298894ec9dd5f96484284bde9eedfaca8df26bd4977",
+				"dweb:/ipfs/QmcVNPWu5nEqRaKnELvgcagWn4gffrPLPde4frpvZHWxrB"
 			]
 		}
 	},

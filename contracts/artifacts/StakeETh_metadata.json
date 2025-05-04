@@ -51,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Staking.sol": "StakeETh"
+			"contracts/Staking_AU.sol": "StakeETh"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -65,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Staking.sol": {
-			"keccak256": "0xd41de67053f6af661963c1519c1e968241612913348388258d3f8fa24be9e385",
+		"contracts/Staking_AU.sol": {
+			"keccak256": "0x06ad92dd69fb50632df997cf0fbe17d456fd6efc8ea49f46f6a86f8063d5334c",
 			"license": "Unlicense",
 			"urls": [
-				"bzz-raw://1caf606593fbd67c7ba75ecad7d17926e20d09079f3e13450cf2e13942b1d1c5",
-				"dweb:/ipfs/QmSbLDW5uNEMDJTSC9xWx3RUAKHmSXcFHFBa3BFW6NPHrT"
+				"bzz-raw://26552d679d03861ed953b885cef2f61f8e73ad97a600f26090917f90a115d99b",
+				"dweb:/ipfs/QmTcYxgK3yfb8XB46rNbmdsgKsx1Zkerb7MAfEhpfKYFpV"
 			]
 		}
 	},
