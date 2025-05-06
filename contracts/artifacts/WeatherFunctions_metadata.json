@@ -592,11 +592,11 @@
 			]
 		},
 		"contracts/weatherfunction.sol": {
-			"keccak256": "0x9721f4ed2a11ffff12ff1911ef8c72979d685747f9f79654cacc54397e143e70",
+			"keccak256": "0x717bba0ec1abf7664b61def000efcd75ffa21364b1426fd688207072a98434cf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4053f47ed1cb6a16b1425bf561f795aa389d17cf563140507d30df85b50bafe3",
-				"dweb:/ipfs/QmUxjpxZ7V3QS1Kj5HCMqBA18Zn6KbXbBffNEep1RgReaA"
+				"bzz-raw://3b0c565fece99896d8d71dd6408ff77d2d71e563fef3cc981dd04858561351fa",
+				"dweb:/ipfs/Qmdi4LAHqiEsKzKR33cEuxgx3xXemSmxcBrKd5V8WbxLEM"
 			]
 		}
 	},
