@@ -130,7 +130,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/FeedData.sol": "AggregatorV3Interface"
+			"contracts/Project_AU.sol": "AggregatorV3Interface"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -144,12 +144,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/FeedData.sol": {
-			"keccak256": "0x285853fb455574148c1781f158c0698c2fb5037102b61c6281b2d67aaa74bb16",
+		"contracts/Project_AU.sol": {
+			"keccak256": "0xd30720302baf347ca1810d4b71007fab482333db23c6ca1432346edbd6594604",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f46f5d18166ee2060c3e989b2723157921e47bc5f8ee51c56b40fb0f9427c109",
-				"dweb:/ipfs/Qma3ZS78rKhq65NQm6eAwCEWDDyAJ95L1YXw575TwhF9mY"
+				"bzz-raw://bb90eb8976fc34c754f76298894ec9dd5f96484284bde9eedfaca8df26bd4977",
+				"dweb:/ipfs/QmcVNPWu5nEqRaKnELvgcagWn4gffrPLPde4frpvZHWxrB"
 			]
 		}
 	},
